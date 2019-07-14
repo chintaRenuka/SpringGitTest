@@ -13,4 +13,10 @@ public class HelloWorldController {
 	{
 		return "HelloWorld!!!";
 	}
+	
+	@RequestMapping(method=RequestMethod.GET,value="/live")
+	public String printHelloWorldLive()
+	{
+		return "HelloWorld!!!";
+	}
 }
